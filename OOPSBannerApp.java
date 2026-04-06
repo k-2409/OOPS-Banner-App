@@ -1,15 +1,26 @@
 /**
- * OOPSBannerApp UC1 - OOPS Banner Display Application
+ * OOPSBannerApp UC2 – Banner Display Application
  *
- * This class prints "OOPS" to the console.
+ * This class demonstrates the creation of a visual banner displaying the word "OOPS"
+ * using ASCII art composed of asterisks (*) and spaces.
  *
- * @author Student
- * @version 1.0
+ * Each line is printed using individual print statements and string concatenation.
+ *
+ * @author Developer
+ * @version 2.0
  */
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
-        System.out.println("OOPS");
-    }
 
+        // Each println represents one row (7 rows total)
+
+        System.out.println("  *****      *****      ******     *****  ");
+        System.out.println(" *     *    *     *    *     *   *     * ");
+        System.out.println("*       *  *       *  *     *    *       ");
+        System.out.println("*       *  *       *  ******      *****  ");
+        System.out.println("*       *  *       *  *               * ");
+        System.out.println(" *     *    *     *   *         *     * ");
+        System.out.println("  *****      *****    *          *****  ");
+    }
 }
